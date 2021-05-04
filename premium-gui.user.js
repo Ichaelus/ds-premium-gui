@@ -5,7 +5,7 @@
 // @author      Ichaelus
 // @copyright   Ichaelus
 // @description Imitate GUI elements that would usually be paid
-// @updateURL   https://raw.githubusercontent.com/Ichaelus/ds-premium-gui/main/premium-gui.user.js
+// @updateURL   https://github.com/Ichaelus/ds-premium-gui/raw/master/premium-gui.user.js
 // @include     *.die-staemme.de*
 // @exclude     *.die-staemme.de
 // @include     *.tribalwars.net*
