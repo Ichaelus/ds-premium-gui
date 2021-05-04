@@ -2,7 +2,7 @@
 
 ## Installieren
 * [Tampermonkey](https://www.tampermonkey.net/) installieren
-* [UserScript öffnen](https://raw.githubusercontent.com/Ichaelus/ds-premium-gui/main/premium-gui.user.js)
+* [UserScript öffnen](https://github.com/Ichaelus/ds-premium-gui/raw/master/premium-gui.user.js)
 
 ## Features
 * Größere Karte sowie Vollbild-Modus
