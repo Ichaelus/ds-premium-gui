@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        DS: Premium GUI
-// @version     1.0.2
+// @version     1.0.3
 // @namespace   Ichaelus
 // @author      Ichaelus
 // @copyright   Ichaelus
@@ -415,6 +415,6 @@ if(!W.game_data){
 let isPremium = !W.game_data.player.premium // not always reliable
 isPremium ||= !W.document.querySelector('#quickbar_outer') // feature check
 
-if (isPremium && !W.game_data.pregame) {
+if (!isPremium && !W.game_data.pregame) {
   new PremiumGUI().init()
 }
