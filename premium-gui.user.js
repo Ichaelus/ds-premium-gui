@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        DS: Premium GUI
-// @version     1.0.1
+// @version     1.0.2
 // @namespace   Ichaelus
 // @author      Ichaelus
 // @copyright   Ichaelus
@@ -408,6 +408,13 @@ class PremiumGUI {
   }
 }
 
-if (!W.game_data.player.premium && !W.game_data.pregame) {
+if(!W.game_data){
+  return // non-game page
+}
+
+let isPremium = !W.game_data.player.premium // not always reliable
+isPremium ||= !W.document.querySelector('#quickbar_outer') // feature check
+
+if (isPremium && !W.game_data.pregame) {
   new PremiumGUI().init()
 }
